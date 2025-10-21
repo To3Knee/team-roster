@@ -9,6 +9,13 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 
 ---
 
+## 🖼️ Screenshot (Dark Theme)
+![Team Contact Roster UI](assets/screenshot.png)
+
+> Tip: If your repo supports light/dark mode previews, you can add a light‑theme screenshot next to it, e.g. `assets/screenshot-light.png`, and show both or use HTML `<picture>` to switch automatically.
+
+---
+
 ## ✨ What’s new in v1.3.3
 - **No tip on print/PDF** — preview-only tip is hidden from print/PDF.
 - Keeps v1.3.2 improvements: print‑only sheets, up to **16 rows** on the front, **2‑column** back layout, and **Quick Numbers CSV** import/export.
@@ -40,6 +47,9 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
   main.js              # Electron main
   package.json
   build-win.ps1        # helper script for Windows
+
+/assets/
+  screenshot.png
 ```
 
 > Yes: the **offline HTML is one file**.  
