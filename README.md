@@ -12,8 +12,6 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 ## 🖼️ Screenshot (Dark Theme)
 ![Team Contact Roster UI](assets/screenshot.png)
 
-> Tip: If your repo supports light/dark mode previews, you can add a light‑theme screenshot next to it, e.g. `assets/screenshot-light.png`, and show both or use HTML `<picture>` to switch automatically.
-
 ---
 
 ## ✨ What’s new in v1.3.3
