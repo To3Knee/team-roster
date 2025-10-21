@@ -1,4 +1,8 @@
 
+<p align="center">
+  <img src="assets/logo.png" alt="Team Contact Roster logo" width="260">
+</p>
+
 # Team Contact Roster (Business Card Sized)
 
 Create wallet‑ready, business‑card sized contact cards for your team — with **drag‑to‑reorder**, **CSV import/export**, **themes**, and **true 85.6 × 54 mm** output for laminating.
@@ -68,6 +72,7 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
   build-win.ps1        # helper script for Windows
 
 /assets/
+  logo.png
   screenshot.png
 ```
 
