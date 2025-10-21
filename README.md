@@ -35,6 +35,27 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 
 ---
 
+## Quick Steps to Print Two‑Sided (Browser)
+
+1. Click **Print / Save PDF** in the app.  
+2. In the browser’s print dialog, set:
+   - **Two‑sided / Duplex:** **On**
+   - **Flip on:** **Long edge** (try **Short edge** only if backs are upside‑down)
+   - **Scale / Zoom:** **100%** (don’t use “Fit to page”)
+   - **Margins:** **Default** / **Normal**
+3. Print. **Page 1 = Front tiles**, **Page 2 = Back tiles**. Your printer will place them on opposite sides of the same sheet.
+
+**Manual duplex (for single‑sided printers):**
+- Print **page 1 only** (fronts). Reinsert the paper as your printer expects, then print **page 2 only** (backs).
+- If the backs are upside‑down, rotate the stack 180° before printing page 2.
+- If left/right alignment is off, try flipping **on short edge** or reinserting the stack flipped over.
+
+**Tips:**
+- Keep **Scale = 100%** on both passes.
+- Disable any driver “borderless,” “shrink/expand,” or “fit to page” options.
+
+---
+
 ## Repo Layout
 ```
 /browser-offline/
@@ -61,12 +82,7 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 1. Open **`/browser-offline/team-contact-roster-offline.html`** in Chrome/Edge/Firefox.
 2. Enter members & quick numbers; drag to order.
 3. Change **Back Title** — the section header updates automatically.
-4. Click **Print / Save PDF**.
-
-**Printing checklist**
-- Expect **2 pages**: Page 1 = **Front tiles**, Page 2 = **Back tiles**.
-- **Two‑sided** ON, **Flip on long edge**.
-- Scale/Zoom **100%**; Margins **Default/Normal**.
+4. Click **Print / Save PDF** (see **Quick Steps** above).
 
 ---
 
