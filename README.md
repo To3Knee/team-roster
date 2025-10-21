@@ -10,8 +10,8 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 ---
 
 ## ✨ What’s new in v1.3.3
-- **No tip on print/PDF** — the small “Tip: Laminate…” line is still visible in the live preview but **hidden from print/PDF**.
-- Kept all v1.3.2 fixes: print‑only sheets, up to **16 rows** on the front, **2‑column** back layout, and **Quick Numbers CSV** import/export.
+- **No tip on print/PDF** — preview-only tip is hidden from print/PDF.
+- Keeps v1.3.2 improvements: print‑only sheets, up to **16 rows** on the front, **2‑column** back layout, and **Quick Numbers CSV** import/export.
 
 ---
 
@@ -47,7 +47,7 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 
 ---
 
-## Quick Start (Browser HTML)
+## 🚀 Quick Start (Browser HTML)
 1. Open **`/browser-offline/team-contact-roster-offline.html`** in Chrome/Edge/Firefox.
 2. Enter members & quick numbers; drag to order.
 3. Change **Back Title** — the section header updates automatically.
@@ -60,20 +60,63 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 
 ---
 
-## Offline Desktop App (Electron)
-Open **PowerShell** in `/electron-src`:
+## 🖥️ Building the Portable .exe on Windows
+
+### 0) Download the Electron source
+Unzip the `electron-src` folder from the release or this repo.
+
+### 1) Install Node.js (gets you `npm`)
+- Download the **LTS** installer from https://nodejs.org and run it.
+- Keep the **“Add to PATH”** option checked.
+- **Close and reopen PowerShell** so the PATH refreshes.
+
+Verify:
+```powershell
+node -v
+npm -v
+```
+You should see versions (e.g., `v20.x.x` and `10.x.x`).
+
+> **Alternative (no admin / multiple versions):** Install **NVM for Windows** (https://github.com/coreybutler/nvm-windows), then:
+> ```powershell
+> nvm install lts
+> nvm use lts
+> node -v
+> npm -v
+> ```
+
+### 2) Install dependencies and build
+Open **PowerShell** in the `electron-src` folder:
 ```powershell
 npm install
-npm start
-npm run pack   # builds portable .exe in .\dist```
-Output:
+npm start      # run it in a window (optional)
+npm run pack   # builds a portable .exe in .\dist```
+Result:
 ```
 dist\TeamContactRoster-win32-x64\TeamContactRoster.exe
 ```
 
+### 3) Optional: run the helper script
+If PowerShell scripts are blocked:
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+.uild-win.ps1 -Pack
+```
+
+### If `npm` is “not recognized”
+- Ensure Node.js was installed **and** you opened a **new** PowerShell after install.
+- Check your **PATH** contains `C:\Program Files
+odejs\`:
+  - Win+R → `rundll32 sysdm.cpl,EditEnvironmentVariables`
+  - System variables → **Path** → **Edit** → **New** → add:
+    ```
+    C:\Program Files
+odejs    ```
+  - OK everything, reopen PowerShell, and try `node -v`, `npm -v` again.
+
 ---
 
-## CSV Examples
+## 📄 CSV Examples
 **Members:**
 ```csv
 Name,Phone,Cell
@@ -87,6 +130,19 @@ Help Desk,555-100-2000
 Support Line,555-300-4000
 On-Call Escalation,555-777-8888
 ```
+
+**Tips**
+- Quoted fields are supported: `"Last, First","(555) 123-4567","555-222-3333"`
+- Import replaces the current list for that section (members or quick numbers).
+
+---
+
+## 🔍 Troubleshooting
+- **Editor UI shows up in printed PDF** → Use v1.3.3+ (print‑only sheets + tip hidden).
+- **Back page looks misaligned** → v1.3.2+ uses a 2‑column table for alignment.
+- **Not all members appear on the front** → Reduce **Font Scale** or ensure v1.3.2+ (tighter typography). Max ~16 rows.
+- **CSV import doesn’t load everything** → Verify headers (`Name,Phone,Cell` or `Label,Value`). Quoted fields are supported.
+- **Data didn’t save** → Private/Incognito disables persistent storage. Use a normal window.
 
 ---
 
