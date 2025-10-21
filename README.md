@@ -3,6 +3,12 @@
   <img src="assets/logo.png" alt="Team Contact Roster logo" width="260">
 </p>
 
+<p align="center">
+  <a href="https://to3knee.github.io/team-roster/app/">
+    ▶️ <b>Launch the app</b>
+  </a>
+</p>
+
 # Team Contact Roster (Business Card Sized)
 
 Create wallet‑ready, business‑card sized contact cards for your team — with **drag‑to‑reorder**, **CSV import/export**, **themes**, and **true 85.6 × 54 mm** output for laminating.
