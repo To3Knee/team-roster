@@ -53,8 +53,6 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 - **App Folder Only (for GitHub Pages or an /app folder)**  
   `team-contact-roster-app-v1.5.6.zip` → contains `index.html` + `app.js` at the root
 
-> If you publish a GitHub Release, attach all three so users can choose their preferred workflow.
-
 ---
 
 ## Features
@@ -90,55 +88,7 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 **Manual duplex (single‑sided printers):**  
 Print **page 1 only** (fronts). Reinsert the paper as your printer expects, then print **page 2 only** (backs). If the backs are upside‑down, rotate the stack 180° before printing page 2.
 
----
-
-## GitHub Pages: set up or restore from scratch
-
-### Keep your app in `/app` (recommended)
-Repo layout:
 ```
-app/
-  index.html
-  app.js
-assets/
-  (optional images like logo.png)
-README.md
-```
-
-Enable Pages (or re‑enable after Unpublish):
-1. Repo → **Settings → Pages**.  
-2. **Build and deployment** → **Source:** *Deploy from a branch*  
-   - **Branch:** `main`  
-   - **Folder:** `/` (root) → **Save**  
-3. The repo homepage will be live at:  
-   `https://<user>.github.io/<repo>/`  
-   Your app will be served from the subfolder:  
-   `https://<user>.github.io/<repo>/app/`
-
-**Not seeing a Save button?** Toggle Source to a different option, switch back to *Deploy from a branch*, then select `main` + `/` (root). The button appears once a selection changes.
-
-**Cache‑busting:** If updates to `app.js` don’t appear immediately, change the script tag to include a version:
-```html
-<script src="app.js?v=1.5.6" defer></script>
-```
-
-### Make the app your site root (optional)
-Move the two files into `/docs` and set **Folder:** `/docs`. Your app loads at:
-```
-https://<user>.github.io/<repo>/
-```
-
-### Keep Deployments panel clean (optional)
-If you don’t want the Deployments widget in your main repo:
-- Put the two files in a **separate repo** (e.g., `team-roster-app`) and enable Pages there, then link to it from your main README.  
-- Or host on **Cloudflare Pages/Netlify/Vercel** (no GitHub Deployments shown).
-
-**Delete Pages deployments one‑by‑one:**  
-- **UI Path 1:** Repo → right sidebar **Deployments** → **github-pages** → `…` → **Delete deployment**.  
-- **UI Path 2:** **Settings → Environments → github-pages** → Deployment history → `…` → **Delete deployment**.
-
----
-
 ## Electron: build a portable desktop app (.exe)
 
 1) Install **Node.js** (LTS) from https://nodejs.org.  
