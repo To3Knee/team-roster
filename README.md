@@ -20,7 +20,7 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 ---
 
 ## 🖼️ Screenshot (Dark Theme)
-![Team Contact Roster UI](assets/screenshot.png)
+![Team Contact Roster UI](assets/screenshot-updated.png)
 
 ---
 
