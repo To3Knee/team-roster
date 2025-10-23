@@ -24,6 +24,20 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 
 ---
 
+## ✨ What’s new in v1.5.6
+- **Address** section button is back (multiline, auto-wrap).
+- **Contacts** section on the back (Name / Phone / Cell rows).
+- **CSV import/export for back sections** (Pairs / Contacts / Address).
+- **External JS** (no inline scripts) so local HTML works in locked-down browsers.
+- **Delete** everywhere + **move** via **drag** or **↑/↓** for members, sections, and items.
+- **Portrait / Landscape** and **Stacked / Table** layouts for the front.
+- **Duplex-friendly print**: fronts tile on page 1; backs tile on page 2.
+
+> Portrait: use **Flip on long edge**.  
+> Landscape: use **Flip on short edge**.
+
+---
+
 ## ✨ What’s new in v1.3.3
 - **No tip on print/PDF** — preview-only tip is hidden from print/PDF.
 - Keeps v1.3.2 improvements: print‑only sheets, up to **16 rows** on the front, **2‑column** back layout, and **Quick Numbers CSV** import/export.
