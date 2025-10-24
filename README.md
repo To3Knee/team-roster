@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/logo.png" alt="Team Contact Roster logo" width="260">
+  <img src="assets/logo2.png" alt="Team Contact Roster logo" width="260">
 </p>
 
 <p align="center">
