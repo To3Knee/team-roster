@@ -8,9 +8,9 @@
     ▶️ <b>Launch the app</b>
   </a>
 </p>
-
+<p align="center">
 # Team Contact Roster (Business Card Sized)
-
+</p>
 Create wallet‑ready, business‑card sized contact cards for your team — with **drag‑to‑reorder**, **CSV import/export**, **themes**, and **true 85.6 × 54 mm** output for laminating.
 
 > Two ways to use:
