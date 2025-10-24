@@ -50,9 +50,6 @@ Create wallet‑ready, business‑card sized contact cards for your team — wit
 - **Electron Source (build a portable .exe / app)**  
   `team-contact-roster-electron-src-v1.5.6.zip`
 
-- **App Folder Only (for GitHub Pages or an /app folder)**  
-  `team-contact-roster-app-v1.5.6.zip` → contains `index.html` + `app.js` at the root
-
 ---
 
 ## Features
