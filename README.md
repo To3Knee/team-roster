@@ -9,9 +9,7 @@
   </a>
 </p>
 
-<p align="center">
-  # Team Contact Roster (Business Card Sized)
-</p>
+<h1 align="center">Team Contact Roster (Business Card Sized)</h1>
 
 Create wallet‑ready, business‑card sized contact cards for your team — with **drag‑to‑reorder**, **CSV import/export**, **themes**, and **true 85.6 × 54 mm** output for laminating.
 
