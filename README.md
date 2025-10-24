@@ -24,7 +24,9 @@
     <img src="https://img.shields.io/github/stars/To3Knee/team-roster?style=flat-square&color=yellow" alt="GitHub Stars">
   </a>
 
-  <a href="https://github.com/To3Knee/Salt-Shaker/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-High%20Five-yellow?style=flat-square" alt="License"></a>
+  <a href="https://github.com/To3Knee/team-roster/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-High%20Five-yellow?style=flat-square" alt="License">
+  </a>
 
   <img src="https://img.shields.io/badge/Platforms-Any-blue?style=flat-square" alt="Platforms">
 </p>
