@@ -11,6 +11,27 @@
 
 <h1 align="center">Team Contact Roster (Business Card Sized)</h1>
 
+<p align="center">
+  <a href="https://github.com/To3Knee/team-roster/releases">
+    <img src="https://img.shields.io/badge/Version-v1.5.6-blue?style=flat-square" alt="Version">
+  </a>
+
+  <a href="https://to3knee.github.io/team-roster/app/">
+    <img src="https://img.shields.io/badge/Launch-App-blue?style=flat-square" alt="Launch App">
+  </a>
+
+  <a href="https://github.com/To3Knee/team-roster">
+    <img src="https://img.shields.io/github/stars/To3Knee/team-roster?style=flat-square&color=yellow" alt="GitHub Stars">
+  </a>
+
+  <a href="https://github.com/To3Knee/team-roster/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
+  </a>
+
+  <img src="https://img.shields.io/badge/Platforms-Any-blue?style=flat-square" alt="Platforms">
+</p>
+
+
 Create wallet‑ready, business‑card sized contact cards for your team — with **drag‑to‑reorder**, **CSV import/export**, **themes**, and **true 85.6 × 54 mm** output for laminating.
 
 > Two ways to use:
