@@ -184,6 +184,11 @@ Site Address,address,,123 Main St\nSuite 400\nBaltimore, MD 21201,,,
 
 - **CSV import looks wrong:**  
   Check headers; for **Address**, put the entire multiline address in **Value** with `\n` separators.
+  
+---
+  
+## ⭐ Star Us
+If you find this project useful, please give us a ⭐ on GitHub! Your support is greatly appreciated.
 
 ---
 
@@ -196,3 +201,14 @@ Site Address,address,,123 Main St\nSuite 400\nBaltimore, MD 21201,,,
 - **v1.3** — Import button match/center; terminology cleanup.
 - **v1.2** — Persistence, Members CSV, editable back title, wider UI, drag‑to‑reorder.
 - **v1.0** — Initial release.
+
+
+## 📜 License
+
+Licensed under the [High Five License](LICENSE) 🙌  
+Give a high five to download, and a **super high, LOUD high five** to use **Team Contact Roster**! 🎉 See the [LICENSE](LICENSE) file for the full, fist-bumping details!
+
+<p align="center">
+  <em>Built with 💖 for GitHub heroes tackling Team Contact Information challenges!</em><br>
+  <a href="https://github.com/To3Knee/team-roster/stargazers"><img src="https://img.shields.io/github/stars/To3Knee/team-roster?style=social" alt="GitHub Stars"></a>
+</p>
